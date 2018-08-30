@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_popular"
+            android:icon="@drawable/ic_nav_popular_places"
+            android:title="@string/popular_places" />
+        <item
+            android:id="@+id/menu_historical"
+            android:icon="@drawable/ic_nav_histoical_places"
+            android:title="@string/historical_places" />
+        <item
+            android:id="@+id/menu_green_area"
+            android:icon="@drawable/ic_nav_green_area"
+            android:title="@string/green_area" />
+        <item
+            android:id="@+id/menu_shoping"
+            android:icon="@drawable/ic_nav_shopping"
+            android:title="@string/shopping" />
+        <item
+            android:id="@+id/menu_mobile_services"
+            android:icon="@drawable/ic_nav_mobile_services"
+            android:title="@string/mobile_services" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_language"
+                android:icon="@drawable/ic_nav_language"
+                android:title="@string/language" />
+            <item
+                android:id="@+id/menu_share"
+                android:icon="@drawable/ic_nav_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/menu_contact"
+                android:icon="@drawable/ic_nav_contact"
+                android:title="@string/contact_us" />
+        </menu>
+    </item>
+</menu>

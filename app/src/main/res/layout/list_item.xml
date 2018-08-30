@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:padding="4dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        android:foreground="@drawable/inverted_corners"
+        android:background="@color/listItemBg"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/place_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/place_location"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="18sp"
+            tools:text="Name" />
+    </LinearLayout>
+
+</LinearLayout>

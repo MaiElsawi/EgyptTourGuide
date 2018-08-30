@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Egypt Tour Guide</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="popular_places">Popular Places</string>
+    <string name="historical_places">Historical Places</string>
+    <string name="green_area">Green Area</string>
+    <string name="shopping">Shopping</string>
+    <string name="mobile_services">Mobile Services</string>
+    <string name="communication">Communication</string>
+    <string name="share">Share</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="language">Language</string>
+    <string name="details">Details</string>
+    <string name="find_branches">Find Branches</string>
+
+
+    <!--List of places-->
+
+</resources>
